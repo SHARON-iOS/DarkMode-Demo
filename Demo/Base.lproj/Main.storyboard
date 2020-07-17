@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Demo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VL8-Lb-4Wl">
+                                <rect key="frame" x="0.0" y="122" width="414" height="210"/>
+                                <color key="backgroundColor" name="Theme"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="210" id="21J-Hm-HC4"/>
+                                </constraints>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lionimg" translatesAutoresizingMaskIntoConstraints="NO" id="N8E-ni-kew">
+                                <rect key="frame" x="87" y="122" width="240" height="210"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="210" id="AmO-BM-cIz"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lion" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j4g-Ig-DOJ">
+                                <rect key="frame" x="0.0" y="360" width="414" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="Fou-bb-Z4A"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
+                                <color key="textColor" name="CustomTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4QU-LV-Ao1">
+                                <rect key="frame" x="10" y="445" width="394" height="107.5"/>
+                                <string key="text">The lion is a species in the family Felidae and a member of the genus Panthera. It is most recognisable for its muscular, deep-chested body, short, rounded head, round ears, and a hairy tuft at the end of its tail.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" name="CustomTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kjj-8w-Ch6">
+                                <rect key="frame" x="0.0" y="767" width="414" height="45"/>
+                                <color key="backgroundColor" name="ThemeButtonColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="JaO-Nh-lA2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                <state key="normal" title="OK">
+                                    <color key="titleColor" name="CustomTextColor"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dark Demo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SyH-2r-jM5">
+                                <rect key="frame" x="0.0" y="64" width="414" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="vXt-w3-nrA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <color key="textColor" name="CustomTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" name="CustomBgColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kjj-8w-Ch6" secondAttribute="trailing" id="6wQ-9K-TcK"/>
+                            <constraint firstItem="j4g-Ig-DOJ" firstAttribute="top" secondItem="VL8-Lb-4Wl" secondAttribute="bottom" constant="28" id="8ky-Si-7D8"/>
+                            <constraint firstItem="N8E-ni-kew" firstAttribute="top" secondItem="SyH-2r-jM5" secondAttribute="bottom" constant="13" id="900-vZ-Ph9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="kjj-8w-Ch6" secondAttribute="bottom" constant="50" id="ELX-nG-q40"/>
+                            <constraint firstItem="SyH-2r-jM5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="Jch-uT-duJ"/>
+                            <constraint firstItem="kjj-8w-Ch6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Rng-aK-AAw"/>
+                            <constraint firstItem="VL8-Lb-4Wl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="f6C-tt-8dT"/>
+                            <constraint firstItem="j4g-Ig-DOJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="jaB-c1-lVe"/>
+                            <constraint firstItem="4QU-LV-Ao1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="lbO-St-vHi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="j4g-Ig-DOJ" secondAttribute="trailing" id="p7M-Xw-5KX"/>
+                            <constraint firstItem="N8E-ni-kew" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="qfn-RP-qsN"/>
+                            <constraint firstItem="SyH-2r-jM5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="t86-Mu-ywd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="SyH-2r-jM5" secondAttribute="trailing" id="tHX-TX-OEg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="N8E-ni-kew" secondAttribute="trailing" constant="87" id="u1c-XE-kUO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VL8-Lb-4Wl" secondAttribute="trailing" id="uk5-T1-uJ1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4QU-LV-Ao1" secondAttribute="trailing" constant="10" id="v04-Js-8Jg"/>
+                            <constraint firstItem="VL8-Lb-4Wl" firstAttribute="top" secondItem="SyH-2r-jM5" secondAttribute="bottom" constant="13" id="wFK-rr-b9l"/>
+                            <constraint firstItem="4QU-LV-Ao1" firstAttribute="top" secondItem="j4g-Ig-DOJ" secondAttribute="bottom" constant="40" id="yRZ-1w-n1p"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="contentLbl" destination="4QU-LV-Ao1" id="UAb-OE-5v8"/>
+                        <outlet property="namelble" destination="j4g-Ig-DOJ" id="E1x-kJ-DAY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140.57971014492756" y="99.776785714285708"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="lionimg" width="3131" height="2350"/>
+        <namedColor name="CustomBgColor">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="CustomTextColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </namedColor>
+        <namedColor name="Theme">
+            <color red="0.6696246862411499" green="0.83963143825531006" blue="0.64359712600708008" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="ThemeButtonColor">
+            <color red="0.6696246862411499" green="0.83963143825531006" blue="0.64359712600708008" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
