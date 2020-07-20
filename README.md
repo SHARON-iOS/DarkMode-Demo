@@ -8,12 +8,10 @@ Dark mode &amp; Light mode handling tutorial
 > You need only light mode
 
 
-:--------------------------------:
 ![](screenshots/light-info.png) 
 
 > You need only dark mode
 
-:--------------------------------:
 ![](screenshots/dark-info.png) 
 
 ### Steps:
