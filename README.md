@@ -9,12 +9,12 @@ Dark mode &amp; Light mode handling tutorial
 
 
 :--------------------------------:
-![](screenshots/light-info) 
+![](screenshots/light-info.png) 
 
 > You need only dark mode
 
 :--------------------------------:
-![](screenshots/dark-info) 
+![](screenshots/dark-info.png) 
 
 ### Steps:
 
@@ -22,7 +22,7 @@ Dark mode &amp; Light mode handling tutorial
 
 >  2.Just use the colorset to  Buttons, views  and where you need.
 
-![](screenshots/colorsets-info) 
+![](screenshots/colorsets-info.png) 
 
 >  3.You can use your asset color programmatically
 
@@ -42,4 +42,4 @@ button.backgroundColor = color
  Light Mode                          |  Dark Mode
 :--------------------------------:|:--------------------------------:
 
-![](screenshots/light)  | ![](screenshots/dark) 
+![](screenshots/light.png)  | ![](screenshots/dark.png) 
