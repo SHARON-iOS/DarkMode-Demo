@@ -17,11 +17,17 @@ class ViewController: UIViewController {
     @IBOutlet weak var firstVW: UIView!
     
     
+  
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
         
-
+        // Mark:-  You can use your asset color programmatically
+        
+        let color = UIColor(named: "Theme")
+        
+        firstVW.backgroundColor = color
+        
     }
 
 
