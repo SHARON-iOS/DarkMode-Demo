@@ -39,5 +39,4 @@ button.backgroundColor = color
 
  Light Mode                          |  Dark Mode
 :--------------------------------:|:--------------------------------:
-
-![](screenshots/light.png)  | ![](screenshots/dark.png) 
+<img width="300" alt="sreen1" src=screenshots/light.png>  |  <img width="300" alt="sreen1" src=screenshots/dark.png>
